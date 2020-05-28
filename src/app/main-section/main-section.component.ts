@@ -10,6 +10,11 @@ export class MainSectionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+  }
+
+  changeLanguage(locale: string) {
+    console.log(locale)
   }
 
 }
